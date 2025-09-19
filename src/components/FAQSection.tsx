@@ -7,28 +7,20 @@ import {
 
 const faqData = [
   {
-    question: "Posso trancar o plano Black Friday?",
-    answer: "Sim! Você pode trancar seu plano por até 60 dias no plano anual, mantendo todos os benefícios quando retornar."
+    question: "Posso trancar o plano?",
+    answer: "Sim. Até 60 dias no plano anual (regras na recepção)."
   },
   {
-    question: "Quais benefícios estão inclusos no plano?",
-    answer: "Seu plano inclui: fichas de treino personalizadas mensais, acesso às aulas de Power Bike, avaliações de bioimpedância, consultoria nutricional gratuita (brinde Black Friday) e ambiente familiar exclusivo."
+    question: "O que está incluso?",
+    answer: "Ficha personalizada mensal, bioimpedância, Power Bike e consultoria nutricional inicial."
   },
   {
     question: "Até quando vai a promoção?",
-    answer: "A promoção Black Friday é válida até 30/11/2024 ou enquanto houver vagas disponíveis. Recomendamos garantir sua vaga o quanto antes!"
+    answer: "Até 30/11 ou enquanto houver vagas."
   },
   {
-    question: "Posso usar a promoção em qualquer unidade?",
-    answer: "Esta promoção especial é exclusiva para a Unidade Península, que conta com toda a infraestrutura premium da Estação Saúde."
-  },
-  {
-    question: "Como funciona a consultoria nutricional?",
-    answer: "Nosso nutricionista fará uma avaliação completa e criará um plano alimentar personalizado para seus objetivos. É nosso brinde especial da Black Friday!"
-  },
-  {
-    question: "Preciso de experiência prévia?",
-    answer: "Não! Atendemos desde iniciantes até atletas avançados. Nossa equipe criará um programa adequado ao seu nível e objetivos."
+    question: "Qual unidade?",
+    answer: "Esta campanha é para a Unidade Península."
   }
 ];
 

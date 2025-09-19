@@ -17,25 +17,33 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center text-white">
-        {/* Black Friday Badge */}
-        <div className="inline-flex items-center gap-2 bg-urgent-red text-white px-6 py-2 rounded-full mb-8 font-bold text-sm uppercase tracking-wider animate-pulse">
-          <Timer className="w-4 h-4" />
-          Super Black Friday - Últimas Vagas!
+        {/* Urgency Badges */}
+        <div className="flex flex-wrap justify-center gap-3 mb-8">
+          <div className="inline-flex items-center gap-2 bg-urgent-red text-white px-4 py-2 rounded-full font-bold text-sm">
+            <Timer className="w-4 h-4" />
+            Vagas limitadas
+          </div>
+          <div className="inline-flex items-center gap-2 bg-black/50 text-white px-4 py-2 rounded-full font-bold text-sm border border-white/20">
+            Termina em 30/11
+          </div>
+          <div className="inline-flex items-center gap-2 bg-gold/20 text-gold px-4 py-2 rounded-full font-bold text-sm border border-gold/30">
+            Unidade Península
+          </div>
         </div>
         
         {/* Main Title */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          <span className="text-gold">Transforme</span> sua rotina de treinos
+          Super Black Friday <span className="text-gold">Estação Saúde</span>
           <br />
-          com até <span className="text-gold">25% OFF</span>
+          <span className="text-2xl md:text-3xl lg:text-4xl text-gray-300">– Península</span>
         </h1>
         
         {/* Subtitle */}
         <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed text-gray-200">
-          Na Unidade Península, você garante planos exclusivos de{" "}
-          <span className="line-through text-gray-400">R$425</span>{" "}
-          por apenas <span className="text-gold font-bold text-3xl">R$315/mês</span>{" "}
-          e ainda economiza até <span className="text-fitness-green font-bold">R$1.320 por ano</span>!
+          Planos premium de <span className="line-through text-gray-400">R$ 425</span>{" "}
+          por <span className="text-gold font-bold text-3xl">R$ 315/mês</span>.{" "}
+          Economize até <span className="text-fitness-green font-bold">R$ 1.320/ano</span>{" "}
+          e treine com acompanhamento de verdade.
         </p>
         
         {/* Trust Indicators */}
@@ -54,10 +62,15 @@ const HeroSection = () => {
           </div>
         </div>
         
-        {/* CTA Button */}
-        <Button variant="hero" size="xl" className="text-xl px-12 py-6 mb-4">
-          Quero garantir meu desconto agora
-        </Button>
+        {/* Dual CTAs */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
+          <Button variant="hero" size="xl" className="text-xl px-12 py-6">
+            Garantir meu desconto
+          </Button>
+          <Button variant="outline" size="xl" className="text-xl px-12 py-6 bg-fitness-green hover:bg-fitness-green/90 text-white border-fitness-green">
+            Falar no WhatsApp
+          </Button>
+        </div>
         
         <p className="text-sm text-gray-300">
           ⏰ Promoção válida até 30/11 ou enquanto houver vagas

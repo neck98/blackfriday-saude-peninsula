@@ -2,21 +2,15 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Maria Silva",
-    role: "Aluna há 2 anos",
-    text: "Aqui encontrei motivação e acompanhamento que nunca tive em outras academias. Os treinos personalizados fizeram toda a diferença na minha evolução.",
+    name: "Larissa M.",
+    role: "Advogada, 34 anos",
+    text: "Nunca tive um acompanhamento tão próximo. Evoluí sem me lesionar.",
     rating: 5
   },
   {
-    name: "João Santos", 
-    role: "Aluno Península",
-    text: "O ambiente é acolhedor e os treinos realmente personalizados. A equipe sempre atenta aos detalhes e minha evolução é constante.",
-    rating: 5
-  },
-  {
-    name: "Ana Costa",
-    role: "Aluna há 3 anos", 
-    text: "A consultoria nutricional mudou minha vida! Resultados que não conseguia em outros lugares. Recomendo de olhos fechados.",
+    name: "Bruno S.", 
+    role: "Engenheiro, 41 anos",
+    text: "O ambiente é familiar e motivador. A ficha personalizada faz diferença real.",
     rating: 5
   }
 ];
@@ -34,7 +28,7 @@ const TestimonialsSection = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 relative">
               <Quote className="absolute top-4 right-4 w-8 h-8 text-gold/20" />

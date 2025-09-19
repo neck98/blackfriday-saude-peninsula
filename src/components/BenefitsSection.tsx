@@ -3,28 +3,28 @@ import { CheckCircle, Dumbbell, Heart, Users, Utensils, Activity } from "lucide-
 const benefits = [
   {
     icon: Dumbbell,
-    title: "Fichas de treino personalizadas",
-    description: "Todo mês você recebe um treino exclusivo, adaptado aos seus objetivos e evolução."
+    title: "Ficha de treino personalizada todo mês",
+    description: "Treino exclusivo, adaptado aos seus objetivos e evolução mensal."
+  },
+  {
+    icon: Heart,
+    title: "Avaliações de bioimpedância inclusas",
+    description: "Acompanhe sua evolução com tecnologia de ponta no seu plano."
   },
   {
     icon: Activity,
     title: "Acesso às aulas de Power Bike",
-    description: "Participe das nossas aulas dinâmicas de cycling em um ambiente motivador."
-  },
-  {
-    icon: Heart,
-    title: "Avaliações de bioimpedância",
-    description: "Acompanhe sua evolução com tecnologia de ponta, incluída no seu plano."
-  },
-  {
-    icon: Utensils,
-    title: "Consultoria nutricional gratuita",
-    description: "Brinde especial Black Friday: acompanhamento nutricional personalizado."
+    description: "Participe das aulas dinâmicas de cycling em ambiente motivador."
   },
   {
     icon: Users,
-    title: "Ambiente familiar e acolhedor",
-    description: "Treine em um espaço exclusivo, com atendimento personalizado e ambiente motivador."
+    title: "Ambiente acolhedor e exclusivo",
+    description: "Treine em espaço familiar com atendimento personalizado."
+  },
+  {
+    icon: Utensils,
+    title: "Consultoria nutricional inicial",
+    description: "Mimo Black Friday: acompanhamento nutricional personalizado."
   }
 ];
 

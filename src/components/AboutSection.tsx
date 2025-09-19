@@ -48,14 +48,23 @@ const AboutSection = () => {
             </h3>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div className="p-4 bg-muted/50 rounded-lg">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <MapPin className="w-6 h-6 text-primary" />
+                </div>
                 <h4 className="font-bold text-lg">Renascença</h4>
                 <p className="text-sm text-muted-foreground">Unidade tradicional</p>
               </div>
               <div className="p-4 bg-gold/10 rounded-lg border-2 border-gold">
+                <div className="w-12 h-12 bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <MapPin className="w-6 h-6 text-gold" />
+                </div>
                 <h4 className="font-bold text-lg text-gold">Península</h4>
                 <p className="text-sm text-gold">Promoção Black Friday</p>
               </div>
               <div className="p-4 bg-muted/50 rounded-lg">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <MapPin className="w-6 h-6 text-primary" />
+                </div>
                 <h4 className="font-bold text-lg">Luzeiros</h4>
                 <p className="text-sm text-muted-foreground">Mais próxima de você</p>
               </div>
